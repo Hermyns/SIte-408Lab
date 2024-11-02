@@ -1,0 +1,533 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #452982;
+    height: 100vh;
+}
+
+.inicio {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4df9f9;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-emcontato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4df9f9;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-emcontato button:hover {
+    box-shadow: 0px 0px 8px #4df9f9;
+    transform: scale(1.3);
+}
+
+/* ESTILO DO CABEÇALHO */
+.logo img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header>.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.3);
+    text-shadow: 0px 0px 8px #ffffffd5;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+
+
+
+
+
+
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site {
+    padding-inline: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 45px;
+    margin: 40px 0;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #4df9f9;
+    font-size: 50px;
+}
+
+.topo-do-site .txt-topo-site p span {
+    color: #4df9f9;
+    font-weight: bold;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
+    background-color: white;
+    border-radius: 30px 0px 30px 0px;
+    padding: 30px 0px;
+    box-shadow: 0px 0px 15px #ffffffab;
+
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+
+
+    }
+
+    100% {
+        top: 30px;
+
+
+    }
+}
+
+/* PAGINA SOBRE */
+
+.sobre-do-site .img-sobre-site img {
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px #ffffffab;
+    margin-top: 30px;
+}
+
+
+section.sobre-do-site {
+    padding-inline: 40px 4%;
+}
+
+section.sobre-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.sobre-do-site h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 45px;
+    margin: 40px 0;
+}
+
+.sobre-do-site .txt-sobre-site h1 span {
+    color: #4df9f9;
+    font-size: 50px;
+}
+
+.sobre-do-site .txt-sobre-site p span {
+    color: #4df9f9;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.sobre-do-site .txt-sobre-site p {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 15px;
+    text-align: justify;
+}
+
+/* PODCAST */
+.btn-podcast button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4df9f9;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-podcast {
+    text-decoration: none;
+}
+
+.btn-podcast a {
+    text-decoration: none;
+}
+
+
+.btn-podcast button:hover {
+    box-shadow: 0px 0px 8px #4df9f9;
+    transform: scale(1.3);
+}
+
+.podcast-do-site .carrosel-podcast iframe {
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px #ffffffab;
+}
+
+
+section.podcast-do-site {
+    padding-inline: 40px 4%;
+}
+
+section.podcast-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.podcast-do-site h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 45px;
+    margin: 20px 0;
+}
+
+.podcast-do-site .txt-podcast-site h1 span {
+    color: #4df9f9;
+    font-size: 50px;
+}
+
+.podcast-do-site .txt-podcast-site p span {
+    color: #4df9f9;
+    font-weight: bold;
+}
+
+
+.podcast-do-site .txt-podcast-site p {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+/* INOVAÇÂO */
+
+.btn-inovacao button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4df9f9;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-inovacao {
+    text-decoration: none;
+}
+
+.btn-inovacao a {
+    text-decoration: none;
+}
+
+
+
+.btn-inovacao button:hover {
+    box-shadow: 0px 0px 8px #4df9f9;
+    transform: scale(1.3);
+}
+
+
+
+section.ideia {
+    padding-inline: 40px 4%;
+}
+
+section.ideia .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.ideia h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 45px;
+    margin: 10px 0;
+}
+
+.ideia .txt-ideia h1 span {
+    color: #4df9f9;
+    font-size: 42px;
+}
+
+.ideia .txt-ideia p span {
+    color: #4df9f9;
+    font-weight: bold;
+}
+
+
+.ideia .txt-ideia p {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:1080px) {
+
+    /*Cabeçalho*/
+
+
+    .btn-contato button {
+       display: none;
+    }
+
+    .logo img {
+        max-width: 150px;
+        max-height: 75px;
+        width: auto;
+        height: auto;
+    }
+
+    header a:hover {
+        color: #fff;
+        transform: scale(1.1);
+    }
+
+    .flex {
+        flex-direction: row;
+    }
+
+    /* Imagem do Inicio */
+
+    .flex ,.img-topo-site {
+        flex-direction: column-reverse;
+    }
+
+    .topo-do-site .img-topo-site img {
+
+        position: relative;
+        animation: flutuar 1.5s ease-in-out infinite alternate;
+        border-radius: 30px 0px 30px 0px;
+        padding: 30px 0px;
+        width: 90%;
+        height: 100%;
+
+    }
+
+    section.topo-do-site .flex {
+        gap: 60px;
+    }
+
+    /* Texto do Inicio*/
+
+    .topo-do-site h1 {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 20px 0px;
+    }
+
+    .topo-do-site .txt-topo-site h1 span {
+        font-size: 25px;
+    }
+
+    section.topo-do-site {
+        padding-inline: 30px 8%;
+    }
+
+    .btn-emcontato button:hover {
+        box-shadow: 0px 0px 8px #4df9f9;
+        transform: scale(1.1);
+    }
+
+    .btn-emcontato button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #4df9f9;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .2s;
+    }
+    
+
+    
+
+    /* Imagem do Sobre */
+
+    section.sobre-do-site {
+        padding-inline: 30px 8%;
+    }
+
+    .sobre-do-site .img-sobre-site img {
+        position: relative;
+        border-radius: 30px;
+        box-shadow: 0px 0px 15px #ffffffab;
+        margin-top: 30px;
+        width: 100%;
+        height: 90%;
+    }
+
+    section.sobre-do-site .flex {
+        gap: 60px;
+    }
+
+    .sobre-do-site h1 {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 20px 0px;
+    }
+
+    .sobre-do-site .txt-sobre-site h1 span {
+        font-size: 25px;
+    }
+
+    /*Podcast*/
+
+    .podcast-do-site .carrosel-podcast {
+        display: none;
+    }
+
+    section.podcast-do-site .flex {
+        gap: 20px;
+    }
+
+    section.sobre-do-site {
+        padding-inline: 30px 8%;
+    }
+
+    .podcast-do-site h1 {
+        font-size: 55px;
+        line-height: 60px;
+        margin: 10px 0;
+
+    }
+
+    .podcast-do-site .txt-podcast-site h1 span {
+        font-size: 55px;
+
+    }
+
+    .podcast-do-site .txt-podcast-site p {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .podcast-do-site .txt-podcast-site p span {
+        font-size: 20px;
+
+    }
+
+    .btn-podcast button {
+        padding: 10px;
+        width: 90%;
+        margin-right: 90px;
+        font-size: 25px;
+        font-weight: 600;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .2s;
+        margin-top: 20px;
+    }
+
+    .btn-podcast button:hover {
+        transform: scale(1.1);
+    }
+
+    /*Inovação*/
+    
+    .btn-inovacao button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .2s;
+    }
+    
+    
+
+    .btn-inovacao a button {
+        width: 95%; 
+        padding: 10px;
+    }
+
+    .img-podcast video {
+        width: 100%; 
+        height: auto;
+        
+    }
+    .btn-inovacao button:hover {
+        transform: scale(1.1);
+    }
+
+}
+
+
+
+
+
+
+
+
